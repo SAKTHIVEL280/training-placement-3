@@ -1,0 +1,130 @@
+1. Smart Parking Slot Management System
+
+Scenario:
+A parking lot has N slots. Cars arrive and leave at different times.
+
+Requirements:
+
+Allocate the lowest available slot number to a car
+
+Prevent parking if the lot is full
+
+Allow car exit and free the slot
+
+Display current occupied slots
+
+Key Challenges (Not Basic):
+
+Track dynamic state
+
+Handle reuse of freed slots
+
+Avoid duplicate allocations
+
+
+2. Bank Account with Transaction History
+
+Scenario:
+Simulate a bank account that supports:
+
+Deposit
+
+Withdrawal
+
+Balance check
+
+Viewing last 5 transactions
+
+Rules:
+
+No withdrawal beyond balance
+
+Maintain ordered transaction history
+
+Old transactions should drop off after 5
+
+Key Challenges:
+
+Maintaining rolling history
+
+Input-driven flow
+
+Data consistency
+
+
+3. Online Exam Evaluation System
+
+Scenario:
+An exam has 10 questions with predefined answers.
+
+Requirements:
+
+Accept student answers
+
+Auto-evaluate and calculate score
+
+Track attempted vs unattempted
+
+Assign grade based on score
+
+Twist (Important):
+
+Negative marking for wrong answers
+
+Skip questions allowed
+
+Key Challenges:
+
+Parallel data handling (answers vs responses)
+
+Conditional scoring logic
+
+
+4. Inventory Stock Alert System
+
+Scenario:
+A store manages product stock.
+
+Requirements:
+
+Add products with stock quantity
+
+Sell products (reduce stock)
+
+Prevent selling more than available
+
+Raise low-stock alert if quantity < threshold
+
+Display inventory summary
+
+Key Challenges:
+
+Multiple product handling
+
+Constraint enforcement
+
+Conditional alerts
+
+
+5. Train Seat Reservation Simulator
+
+Scenario:
+A train has multiple coaches, each with fixed seats.
+
+Requirements:
+
+Book seat (auto-assign lowest available)
+
+Cancel booking
+
+Display seat availability per coach
+
+Prevent overbooking
+
+Key Challenges:
+
+Two-level data structure (coach → seats)
+
+Dynamic allocation
+
+State synchronization
