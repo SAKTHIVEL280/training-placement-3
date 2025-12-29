@@ -1,3 +1,4 @@
+# contains_dup.py
 n=int(input("Enter array size: "))
 arr=[int(input()) for i in range(n)]
 s=set()

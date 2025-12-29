@@ -1,3 +1,4 @@
+# intersect_arr.py
 n1=int(input("Enter size of array 1: "))
 a1=[int(input()) for i in range(n1)]
 n2=int(input("Enter size of array 2: "))

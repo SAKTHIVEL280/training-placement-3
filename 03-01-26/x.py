@@ -1,3 +1,4 @@
+# char_freq.py
 s=input("Enter string: ")
 d={}
 for c in s:

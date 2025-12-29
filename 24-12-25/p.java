@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class p {
+class prime_check {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter number: ");

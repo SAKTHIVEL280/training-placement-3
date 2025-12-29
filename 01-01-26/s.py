@@ -1,3 +1,4 @@
+# best_stock.py
 n=int(input("Enter days: "))
 p=[int(input()) for i in range(n)]
 mp=p[0]

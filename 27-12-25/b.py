@@ -1,3 +1,4 @@
+# palindrome.py
 x=int(input("Enter number: "))
 if x<0:
     print("Not palindrome")

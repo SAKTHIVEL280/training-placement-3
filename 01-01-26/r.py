@@ -1,3 +1,4 @@
+# missing_num.py
 n=int(input("Enter array size: "))
 arr=[int(input()) for i in range(n)]
 es=n*(n+1)//2

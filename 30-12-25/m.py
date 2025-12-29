@@ -1,3 +1,4 @@
+# armstrong.py
 n=int(input("Enter number: "))
 o=n
 c=len(str(n))

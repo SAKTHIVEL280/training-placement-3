@@ -1,3 +1,4 @@
+# prime_check.py
 n=int(input("Enter number: "))
 fl=True
 if n<=1:

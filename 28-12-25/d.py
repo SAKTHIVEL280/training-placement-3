@@ -1,3 +1,4 @@
+# max_min.py
 n=int(input("Enter array size: "))
 arr=[int(input()) for i in range(n)]
 mx=max(arr)

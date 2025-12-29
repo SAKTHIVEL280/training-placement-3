@@ -1,3 +1,4 @@
+# two_sum.py
 n=int(input("Enter array size: "))
 arr=[int(input()) for i in range(n)]
 t=int(input("Enter target: "))

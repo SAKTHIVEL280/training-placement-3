@@ -1,3 +1,4 @@
+# move_zero.py
 n=int(input("Enter array size: "))
 arr=[int(input()) for i in range(n)]
 p=0

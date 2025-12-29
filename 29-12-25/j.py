@@ -1,3 +1,4 @@
+# anagram.py
 s1=input("Enter string 1: ")
 s2=input("Enter string 2: ")
 if len(s1)!=len(s2):

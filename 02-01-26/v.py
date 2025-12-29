@@ -1,3 +1,4 @@
+# max_subarr.py
 n=int(input("Enter array size: "))
 arr=[int(input()) for i in range(n)]
 ms=arr[0]
